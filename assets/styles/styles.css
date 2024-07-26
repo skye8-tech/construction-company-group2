@@ -1,0 +1,72 @@
+h1{
+    
+    height: 45px;
+    font-size: open sans;
+    font-size: 45px;
+    color:rgb(20, 180, 20) ;
+    padding-left: 200px;
+    
+}
+body{
+    width: 980px;
+    height: 89.91px;
+    top: 1046.05px;
+    background-color: papayawhip;
+}
+.am{
+
+    height: 346px;
+    padding-left: 160px;
+
+    
+
+}
+p{
+  background-color: rgb(20, 180, 20);  
+width: 550px;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float:left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+.j{
+    background-color: papayawhip;
+}
+.po{
+ position: relative;
+ left: 450px;
+ top: 50px;
+
+}
+h2{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    font-size: 60px;
+    color: rgb(17, 17, 136);
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
