@@ -201,4 +201,55 @@ h2{
       
 }
 
+/* mission  */
+.mission{
+   padding: 2 8rem;
+}
+.mission h1{ font-size: 45px;
+    text-align: left;
+    color: green;
+    position: relative;
+
+}
+
+.mission .image{
+   
+    padding: 50px;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+
+
+.mission .row{
+ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+/* .mission .row::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.mission .awa{
+    padding: 1rem;
+    background-color: lightcyan;
+   
+
+}
+
+.mission h2{
+    font-size: 40px;
+    color: green;
+}
+.mission h3{
+    font-size: 45px;
+    color: orange;
+}
 
