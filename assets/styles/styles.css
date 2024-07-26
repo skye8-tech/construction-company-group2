@@ -1,0 +1,204 @@
+
+.sect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8rem;
+}
+body{
+  background-color: white;
+
+}
+header{
+  background-color: white;
+  width: 100%;
+}
+  .search_box{
+  margin: auto 0;
+  height: 30px;
+  min-height: 20px;
+  text-align: center;
+}
+.search_box input{
+  border: none;
+  outline: none;
+  background: rgb(245, 240, 240);
+  height: 90%;
+  padding: 0 10px; 
+  font-size: 20px;
+  width: 250px;
+}
+.search_box span{
+  color: green;
+  font-size: 20px;
+  background: #fff;
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  z-index: 1;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  
+}
+a.social{
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin: 0 10px;
+  border: 1px green solid;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+
+}
+a.social::before{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+a.social::before{
+
+}
+a.social svg{
+  width: 5px;
+  height: 5px;
+}
+nav{
+  background-color: rgb(20, 180, 20);
+  
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+justify-content: center;
+
+}
+nav ul li{
+ 
+  padding: 1rem 1rem;
+  border-right: solid white;
+
+}
+nav ul li a{
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+ 
+  
+
+  
+}
+.golo{
+  background-image:linear-gradient(rgba(240, 240, 240, 0.5),rgba(240, 240, 240, 0.5)) ,url("../images/Golo-Hero-1024x614.jpg\ \(1\).png");
+  height: 70vh;
+  width: 98vw;
+  background-repeat: none;
+display: flex;
+justify-content: space-evenly ;
+text-align: center;
+}
+.hero-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero-text h2{
+  color:  rgb(20, 180, 20);
+  text-align: left;
+
+}
+  p{color: blue;}
+p.v{
+  text-align: left;
+}
+button{
+  justify-content: center;
+  background-color: blue;
+  width: 150px;
+  height: 30px;
+  padding: 5px 15px;
+  color: orange;
+}
+.img{
+  float: right;
+  top: -90px;
+  position: relative;
+
+  height: 10px;
+  
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}
+/*about*/
+.about h1{
+    
+    font-size: 45px;
+    margin: 0;
+    color:rgb(20, 180, 20) ;
+   text-align: center;
+    
+}
+.about {
+    padding: 2 8rem;
+  
+    background-color: papayawhip;
+}
+.am{
+
+   display: flex;
+ flex-direction: column;
+}
+.am p{
+  background-color: rgb(20, 180, 20);  
+  margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    width: 50%;
+    padding: 5px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.row::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+.j{
+    background-color: papayawhip;
+}
+.po{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+}
+h2{
+  
+    font-size: 60px;
+    color: rgb(17, 17, 136);
+      
+}
+
+
