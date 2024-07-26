@@ -8,6 +8,11 @@
 }
 body{
   background-color: white;
+
+}
+header{
+  background-color: white;
+  width: 100%;
 }
   .search_box{
   margin: auto 0;
@@ -108,7 +113,7 @@ text-align: center;
   align-items: center;
   gap: 10px;
 }
-h2{
+.hero-text h2{
   color:  rgb(20, 180, 20);
   text-align: left;
 
@@ -139,28 +144,23 @@ a{
   color: blue;
 }
 /*about*/
-h1{
+.about h1{
     
-    height: 45px;
-    font-size: open sans;
     font-size: 45px;
+    margin: 0;
     color:rgb(20, 180, 20) ;
-    padding-left: 200px;
+   text-align: center;
     
 }
-body{
-    width: 980px;
-    height: 89.91px;
-    top: 1046.05px;
+.about {
+    padding: 2 8rem;
+  
     background-color: papayawhip;
 }
 .am{
 
-    height: 346px;
-    padding-left: 160px;
-
-    
-
+   display: flex;
+ flex-direction: column;
 }
 p{
   background-color: rgb(20, 180, 20);  
@@ -170,9 +170,15 @@ width: 550px;
     box-sizing: border-box;
 }
 .column{
-    float:left;
-    width: 33.33%;
+    width: 50%;
     padding: 5px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
 }
 .row::after{
     content: "";
@@ -183,15 +189,13 @@ width: 550px;
     background-color: papayawhip;
 }
 .po{
- position: relative;
- left: 450px;
- top: 50px;
+display: flex;
+flex-direction: column;
+text-align: center;
 
 }
 h2{
-    position: relative;
-    left: 100px;
-    top: 10px;
+  
     font-size: 60px;
     color: rgb(17, 17, 136);
       
