@@ -252,4 +252,106 @@ h2{
     font-size: 45px;
     color: orange;
 }
+/*header*/
+.header-seection{
 
+}
+.inline{
+  background-color: rgb(11, 11, 145);
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+ 
+}
+.gray{
+  color: gray;
+}
+.blu{
+  color: blue;
+}
+.mon{
+color: green;
+font-size: 40px;
+}
+.active{
+  background-color:rgb(53, 80, 53)!important;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-section{
+  background-color: rgb(192, 176, 176);
+  height: 100px;
+  width: 100%;
+text-align: center;
+align-content: center;
+
+border-radius: 4px;
+color: white;
+
+
+
+
+}
+.label-input{ 
+  background-color: rgb(192, 176, 176);
+ 
+}
+p.icon{
+  color: black ;
+  align-items: center;
+
+}
+.send{
+  background-color: orange;
+  color: white;
+}
+span ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+  
+}
+span ul li{
+ 
+  padding: 1rem 1rem;
+  border-right: solid white;
+
+}
+span ul li a{
+  color: orange;
+  font-size: rem;
+  text-decoration: none;}
+  .pp{
+    text-align: ;
+
+  }
+  .footer{
+    background-color:  rgb(20, 180, 20);
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    padding: 1rem 5rem;
+    }
+    
+  
